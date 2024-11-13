@@ -1,0 +1,37 @@
+.sidebar {
+    height: 100%;
+    width: 175px;
+    background-color: #383838;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-right:#383838;
+    border-radius: 0px 24px 24px 0px;
+    text-align: center;
+    }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+    margin-bottom: 10px;
+  }
+  
+  .link:hover {
+    background-color: #444;
+    border-radius: 24px;
+  }
+  
