@@ -9,6 +9,9 @@ const teamCharts: React.FC = () => {
       <Sidebar />
       <div className={styles.mainContent}>
         <h1 className={styles.title}>Team Charts</h1>
+        <p className={styles.description}>
+          Temp
+        </p>
       </div>
     </div>
     </div>

@@ -9,6 +9,9 @@ const raceCalender: React.FC = () => {
       <Sidebar />
       <div className={styles.mainContent}>
         <h1 className={styles.title}>Race Calender</h1>
+        <p className={styles.description}>
+          Temp
+        </p>
       </div>
     </div>
     </div>
