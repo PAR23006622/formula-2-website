@@ -10,7 +10,7 @@ const About: React.FC = () => {
         <div className={styles.mainContent}>
           <h1 className={styles.title}>Welcome to my Formula 2 Analytics page</h1>
           <p className={styles.description}>
-            My name is <strong>Ben Parkinson</strong>, and I am currently a university student. This website is my independent project for one of my units.
+            My name is <strong>Ben</strong>, and I am currently a university student. This website is my independent project for one of my units.
           </p>
           <h2 className={styles.subtitle}>Project Motivation</h2>
           <p className={styles.description}>
