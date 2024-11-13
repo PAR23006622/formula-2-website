@@ -29,7 +29,7 @@ const PieChartComponent: React.FC = () => (
 
 const F2Drivers2024ChartComponent: React.FC = () => (
   <div className={styles.chartRow}>
-    <h1 className={styles.title}>Formula 2 2024 Drivers' Points</h1>
+    <h1 className={styles.title}>Formula 2 2024 Drivers Points</h1>
     <Line data={f2Drivers2024ChartData} options={lineChartOptions} height={400} />
   </div>
 );
