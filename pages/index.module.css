@@ -19,6 +19,8 @@
     width: 90%;
     background-color: #f5f5f5;
     min-height: 93vh;
+    min-width: 300px;
+    max-width: 1500px;
     border-radius: 24px;
     align-items: center;
    }
