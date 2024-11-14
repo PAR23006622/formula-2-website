@@ -14,11 +14,12 @@
     
     .mainContent {
       justify-items: center;
-      padding: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
       min-width: 300px;
       max-width: 1000px;
       background-color: #f5f5f5;
-      min-height: 90vh;
+      min-height: 93vh;
       border-radius: 24px;
       align-items: center;
       text-align: center;
