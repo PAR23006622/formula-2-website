@@ -26,13 +26,13 @@
   color: #fff;
   text-decoration: none;
   display: block;
-  padding: 20px 0;
+  padding: 20px;
   border-bottom: 2px solid #444;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .link:hover {
   background-color: #444;
   border-radius: 24px;
-  padding: 20px;
 }
