@@ -1,29 +1,44 @@
-import React from 'react';
-import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
+import isMobile from 'ismobilejs';
 import styles from './Sidebar.module.css';
 
 const Sidebar: React.FC = () => {
-  return (
-    <div className={styles.sidebar}>
-      <nav className={styles.nav}>
-        <Link href="/" legacyBehavior>
-          <a className={styles.link}>Home</a>
-        </Link>
-        <Link href="/driverCharts" legacyBehavior>
-          <a className={styles.link}>Driver Charts</a>
-        </Link>
-        <Link href="/teamCharts" legacyBehavior>
-          <a className={styles.link}>Team Charts</a>
-        </Link>
-        <Link href="/raceCalender" legacyBehavior>
-          <a className={styles.link}>Race Calender </a>
-        </Link>
-        <Link href="/about" legacyBehavior>
-          <a className={styles.link}>About</a>
-        </Link>
-      </nav>
-    </div>
-  );
+    const [isOpen, setIsOpen] = useState(false);
+    const [isMobileDevice, setIsMobileDevice] = useState(false);
+
+    useEffect(() => {
+        const mobileCheck = isMobile(window.navigator);
+        setIsMobileDevice(mobileCheck.any);
+    }, []);
+
+    const toggleSidebar = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <div>
+            {isMobileDevice && (
+                <button
+                    className={`${styles.hamburger} ${isOpen ? styles.open : ''}`}
+                    onClick={toggleSidebar}
+                    aria-label="Toggle sidebar"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            )}
+            <div className={`${styles.sidebar} ${isOpen ? styles.show : ''}`}>
+                <nav className={styles.nav}>
+                    <a href="../" className={styles.link}>Home</a>
+                    <a href="../driverCharts" className={styles.link}>Driver Stats</a>
+                    <a href="../teamCharts" className={styles.link}>Team Stats</a>
+                    <a href="../raceCalender" className={styles.link}>Race Calendar</a>
+                    <a href="../about" className={styles.link}>About</a>
+                </nav>
+            </div>
+        </div>
+    );
 };
 
 export default Sidebar;

@@ -30,4 +30,22 @@
       color: #666; 
       text-align: center;
     }
+
+    @media (max-width: 1200px) {
+      .mainContent {
+        min-width: 250px;
+       }
+
+      .container {
+        font-size: small;
+        align-items: center;
+        margin-left: 18%;
+      }
+
+      .description { 
+        font-size: medium; 
+        color: #666; 
+        text-align: center;
+    }
+  }
     
