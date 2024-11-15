@@ -2,7 +2,7 @@
 
 /* Sidebar and navigation styles */
 .sidebar {
-  height: 85%;
+  height: 92.5%;
   width: 140px;
   background-color: #383838;
   color: #fff;
@@ -19,6 +19,7 @@
   align-items: center;
   justify-items: center;
   transition: transform 0.3s ease, left 0.3s ease; /* Add transition */
+  font-size: medium;
 }
 
 .nav {
@@ -41,7 +42,7 @@
 }
 
 /* Media query for mobile devices */
-@media (max-width: 450px) {
+@media (max-width: 475px) {
   .sidebar {
       height: 100%;
       width: 100%;
@@ -74,7 +75,7 @@
 .hamburger span {
   display: block;
   width: 25px;
-  height: 3px;
+  height: 0px;
   margin: 2px;
   background: #fff;
   transition: transform 0.3s ease, opacity 0.3s ease; /* Add transition */
@@ -83,6 +84,14 @@
 @media (max-width: 450px) {
   .hamburger {
       display: flex;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 2px;
+    background: #fff;
   }
 }
 
