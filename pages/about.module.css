@@ -39,7 +39,7 @@
       .container {
         font-size: small;
         align-items: center;
-        margin-left: 18%;
+        margin-left: 170px;
       }
 
       .description { 
@@ -48,4 +48,22 @@
         text-align: center;
     }
   }
+
+  @media (max-width: 475px) {
+    .mainContent {
+      min-width: 200px;
+     }
+
+    .container {
+      font-size: small;
+      align-items: center;
+      margin-left: 75px;
+    }
+
+    .description { 
+      font-size: medium; 
+      color: #666; 
+      text-align: center;
+  }
+}
     
