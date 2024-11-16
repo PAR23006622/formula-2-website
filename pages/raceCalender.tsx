@@ -4,7 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import Sidebar from '../components/Sidebar';
 import styles from './InformationPage.module.css';
 
-const RaceCalender: React.FC = () => {
+const raceCalender: React.FC = () => {
   return (
     <div className={styles.global}>
     <Analytics /> <SpeedInsights/>
@@ -21,4 +21,4 @@ const RaceCalender: React.FC = () => {
   );
 };
 
-export default RaceCalender;
+export default raceCalender;
