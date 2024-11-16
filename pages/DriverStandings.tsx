@@ -3,7 +3,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Sidebar from '../components/Sidebar';
 import DriverChartComponent from '../components/DriverChartComponent';
-import styles from './standings.module.css';
+import styles from './Standings.module.css';
 
 const DriverStandings: React.FC = () => {
   return (
