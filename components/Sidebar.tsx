@@ -34,7 +34,7 @@ const Sidebar: React.FC = () => {
                     <a href="../DriverStandings" className={styles.link}>Driver Standings</a>
                     <a href="../TeamStandings" className={styles.link}>Team Standings</a>
                     <a href="../Teams&Drivers" className={styles.link}>Teams & Drivers</a>
-                    <a href="../RaceCalendar" className={styles.link}>Race Calendar</a>
+                    <a href="../RaceCalender" className={styles.link}>Race Calendar</a>
                     <a href="../about" className={styles.link}>About</a>
                 </nav>
             </div>
