@@ -33,7 +33,7 @@
 
     @media (max-width: 1200px) {
       .mainContent {
-        min-width: 250px;
+        min-width: 80%;
        }
 
       .container {

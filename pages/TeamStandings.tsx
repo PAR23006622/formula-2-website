@@ -2,9 +2,9 @@ import React from 'react';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Sidebar from '../components/Sidebar';
-import styles from './InfomrationPage.module.css';
+import styles from './InformationPage.module.css';
 
-const teamCharts: React.FC = () => {
+const TeamStandings: React.FC = () => {
   return (
     <div className={styles.global}>
     <Analytics /> <SpeedInsights/>
@@ -21,4 +21,4 @@ const teamCharts: React.FC = () => {
   );
 };
 
-export default teamCharts;
+export default TeamStandings;
