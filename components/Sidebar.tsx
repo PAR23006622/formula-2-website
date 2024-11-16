@@ -31,10 +31,11 @@ const Sidebar: React.FC = () => {
             <div className={`${styles.sidebar} ${isOpen ? styles.show : ''}`}>
                 <nav className={styles.nav}>
                     <a href="../" className={styles.link}>Home</a>
-                    <a href="../driverCharts" className={styles.link}>Driver Stats</a>
-                    <a href="../teamCharts" className={styles.link}>Team Stats</a>
-                    <a href="../raceCalender" className={styles.link}>Race Calendar</a>
-                    <a href="../about" className={styles.link}>About</a>
+                    <a href="../DriverStandings" className={styles.link}>Driver Standings</a>
+                    <a href="../TeamStandings" className={styles.link}>Team Standings</a>
+                    <a href="../Teams&Drivers" className={styles.link}>Teams & Drivers</a>
+                    <a href="../RaceCalender" className={styles.link}>Race Calendar</a>
+                    <a href="../About" className={styles.link}>About</a>
                 </nav>
             </div>
         </div>

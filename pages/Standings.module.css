@@ -5,6 +5,8 @@
 .container {
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: stretch;
   margin-left: 85px;
 }
 
@@ -15,7 +17,8 @@
 }
 
 .chartRow {
-  height: 16%;
+  min-height: 16%;
+  max-height: 18%;
   width: 42%;
   margin: 1% auto;
   border-radius: 24px;
