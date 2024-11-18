@@ -1,0 +1,60 @@
+/* Footer.module.css */
+
+.container {
+    margin-left: 175px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.footer {
+    z-index: 1000;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #023a5f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10%;
+    position: relative;
+    border-radius: 24px 24px 0px 0px;
+    transform: translateY(3%);
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin: 5px 0;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        font-size: small;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        margin-left: 170px;
+    }
+}
+
+@media (max-width: 475px) {
+    .container {
+        font-size: small;
+        margin-left: 75px;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 import styles from './InformationPage.module.css';
 
 const raceCalender: React.FC = () => {
@@ -17,6 +18,7 @@ const raceCalender: React.FC = () => {
         </p>
       </div>
     </div>
+    <Footer />
     </div>
   );
 };

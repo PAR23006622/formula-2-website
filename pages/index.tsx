@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Sidebar from '../components/Sidebar';
 import styles from './InformationPage.module.css';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
         </p>
       </div>
     </div>
+    <Footer/>
     </div>
   );
 };

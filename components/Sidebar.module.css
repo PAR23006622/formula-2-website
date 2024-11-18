@@ -2,9 +2,10 @@
 
 /* Sidebar and navigation styles */
 .sidebar {
+  z-index: 1001; /* Ensure sidebar is above other elements */
   height: 92.5%;
   width: 140px;
-  background-color: #383838;
+  background-color: #004267;
   color: #fff;
   padding-left: 15px;
   padding-right: 15px;
@@ -32,12 +33,12 @@
   text-decoration: none;
   display: block;
   padding: 20px 0;
-  border-bottom: 2px solid #444;
+  border-bottom: 2px solid #005281;
   margin-bottom: 5px;
 }
 
 .link:hover {
-  background-color: #444;
+  background-color: #005281;
   border-radius: 24px;
 }
 
@@ -69,7 +70,7 @@
   position: fixed;
   top: 10px;
   left: 10px;
-  z-index: 1000;
+  z-index: 1003;
   cursor: pointer;
   background: none;
   border: none;
@@ -81,6 +82,7 @@
 }
 
 .hamburger span {
+  z-index: 1003; /* Ensure sidebar is above other elements */
   display: block;
   width: 25px;
   height: 0px;
