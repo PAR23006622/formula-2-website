@@ -3,7 +3,6 @@ import { Bar, Line, Pie, Radar, PolarArea, Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, Title, Tooltip, Legend, RadialLinearScale } from 'chart.js';
 import { lineChartData, pieChartData, barChartData, lineChartOptions, commonOptions, f2Drivers2024ChartData, radarChartData, polarAreaChartData, doughnutChartData } from './chartData';
 import styles from '../pages/Standings.module.css';
-import Footer from './Footer';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, Title, Tooltip, Legend, RadialLinearScale);
 
