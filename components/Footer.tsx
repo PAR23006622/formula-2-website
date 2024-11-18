@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <footer className={styles.footer}>
             <div className={styles.section}>
                 <h2>About</h2>
-                <p>Our website is dedicated to providing the latest insights and analytics in the world of motorsports.</p>
+                <p>This website is dedicated to providing the latest data visulisation and analytics in the world of Formula 2 racing.</p>
             </div>
             <div className={styles.section}>
                 <h2>Legal</h2>
@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             </div>
             <div className={styles.section}>
                 <h2>Contact</h2>
-                <p>Email: info@example.com</p>
+                <p>Email: par23006622@heartofyorkshire.ac.uk</p>
             </div>
         </footer>
         </div>
