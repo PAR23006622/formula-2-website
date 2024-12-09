@@ -35,7 +35,7 @@ export function PointsDistributionChart() {
 
   return (
     <div className="w-full h-full">
-      <PolarArea data={data} options={options} />
+      <PolarArea data={data} options={options as any} />
     </div>
   );
 }
