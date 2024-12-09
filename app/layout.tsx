@@ -1,9 +1,9 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { Sidebar } from '../components/sidebar';
-import { Footer } from '../components/footer';
-import { ThemeProvider } from '../components/theme-provider';
+import { Sidebar } from '@/components/sidebar';
+import { Footer } from '@/components/footer';
+import { ThemeProvider } from '@/components/theme-provider';
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
